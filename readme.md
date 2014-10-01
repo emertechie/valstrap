@@ -11,13 +11,16 @@ npm install valstrap
 
 # Directives included
 
-* `val-form`
-* `val-model`
-* `val-group`
-* `val-error`
+All directives must be declared as attributes
+
+* `val-form` - must be declared on the `<form>` element
+* `val-model` - must be declared on each individual input element (and each input must use ng-model)
+* `val-group` - declare it on the `form-group` wrapper element. Will add or remove the `has-error` class as appropriate
+* `val-error` - can be assigned an optional error name to filter on (see examples below). Otherwise will default to showing on `required`
 
 # Example Usage
 
+``` html
     <form class="form-horizontal" role="form" name="form" novalidate val-form ng-submit="save()">
         <fieldset>
             <div class="form-group" val-group>
@@ -45,4 +48,4 @@ npm install valstrap
             </div>
         </fieldset>
     </form>
-
+```
