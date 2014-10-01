@@ -6,7 +6,7 @@ Angular validation directives for Bootstrap forms.
 # Install
 
 ```
-npm install valstrap
+bower install valstrap
 ```
 
 # Directives included
