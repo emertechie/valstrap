@@ -1,0 +1,25 @@
+{
+  "name": "valstrap",
+  "version": "0.0.1",
+  "authors": [
+    "Andrew Smith <emertechie@gmail.com>"
+  ],
+  "description": "Angular validation directives for Bootstrap forms.",
+  "main": "lib/validation.js",
+  "keywords": [
+    "angular",
+    "validation",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.25"
+  }
+}
