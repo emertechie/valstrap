@@ -18,7 +18,6 @@ npm install valstrap
 
 # Example Usage
 
-''' html
     <form class="form-horizontal" role="form" name="form" novalidate val-form ng-submit="save()">
         <fieldset>
             <div class="form-group" val-group>
@@ -46,4 +45,4 @@ npm install valstrap
             </div>
         </fieldset>
     </form>
-'''
+
