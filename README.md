@@ -14,9 +14,15 @@ bower install valstrap
 All directives must be declared as attributes
 
 * `val-form` - must be declared on the `<form>` element
-* `val-model` - must be declared on each individual input element (and each input must use ng-model)
 * `val-group` - declare it on the `form-group` wrapper element. Will add or remove the `has-error` class as appropriate
+* `val-model` - must be declared on each individual input element (and each input must use ng-model)
 * `val-error` - can be assigned an optional error name to filter on (see examples below). Otherwise will default to showing on `required`
+
+# Behaviour
+
+* Only adds the `has-error` class to highlight form group error after user has focused into an input element
+* Shows error messages when form submitted
+* Error messages remain visible until fully resolved (rather than disappearing as soon as you focus back into element)
 
 # Example Usage
 
